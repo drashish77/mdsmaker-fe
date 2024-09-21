@@ -28,21 +28,25 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/4"
               >
-                <a href="/" className="relative">
+                <a href="/" className="relative flex items-center">
                   <Image
-                    width={110}
+                    width={80}
                     height={80}
-                    src="/images/logo/logo-light.svg"
+                    src="/images/logo/logo-dark.svg"
                     alt="Logo"
                     className="dark:hidden"
                   />
                   <Image
-                    width={110}
+                    width={80}
                     height={80}
                     src="/images/logo/logo-dark.svg"
                     alt="Logo"
                     className="hidden dark:block"
                   />
+                  <span className="text-xl font-bold text-[#ad9551]">MDS</span>
+                  <span className="ml-1 text-xl font-bold text-[#004aad]">
+                    MAKER
+                  </span>
                 </a>
 
                 <p className="mb-10 mt-5">
@@ -56,7 +60,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  hello.mdsmaker@gmail.com
                 </a>
               </motion.div>
 
@@ -301,7 +305,7 @@ const Footer = () => {
               className="animate_top"
             >
               <p>
-                &copy; {new Date().getFullYear()} Solid. All rights reserved
+                &copy; {new Date().getFullYear()} MDS MAKER. All rights reserved
               </p>
             </motion.div>
 
